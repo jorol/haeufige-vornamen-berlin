@@ -29,7 +29,7 @@ Maximilian;59;m
 ...
 ```
 
-`vorname` gibt den Namen an, `anzahl` die Gesamtzahl der Kinder, die mit diesem Namen angemeldet wurden und `geschlecht` das Geschlecht des Kindes. Dabei ist zu beachten, dass es bei `anzahl` keine Rolle spielt, ob der Kind den Namen als ersten, zweiten oder dritten Namen bekommen hat!
+`vorname` gibt den Namen an, `anzahl` die Gesamtzahl der Kinder, die mit diesem Namen angemeldet wurden und `geschlecht` das Geschlecht des Kindes. Dabei ist zu beachten, dass es bei `anzahl` keine Rolle spielt, ob das Kind den Namen als ersten, zweiten oder dritten Namen bekommen hat!
 
 Ab 2017 existiert eine weitere Spalte `position`:
 
@@ -51,7 +51,7 @@ Marie;9;w;3
 
 Für den Fall, dass ein Kind mehrere Vornamen bekommen hat, bezeichnet `position` hier die Stelle des Namens in der Liste der Namen. `position` macht allerdings keine Aussage über den Rufnamen!
 
-Durch die zusätzliche Spalte ändert sich natürlich die Häufigkeit der Namen: wo es im Beispiel oben drei Einträge für den Mädchennamen "Marie" gibt (22 an erster, 72 an zweiter und 9 an dritte Stelle), hätte es ohne Positionsangabe nur einen Eintrag gegeben (22+72+9=113). Bei Vergleichen zwischen den Jahren 2012-2016 mit späteren Jahren muss dies natürlich berücksichtigt werden.
+Durch die zusätzliche Spalte ändert sich natürlich die Häufigkeit der Namen: wo es im Beispiel oben drei Einträge für den Mädchennamen "Marie" gibt (22 an erster, 72 an zweiter und 9 an dritte Stelle), hätte es ohne Positionsangabe nur einen Eintrag gegeben (22+72+9=113). Bei Vergleichen zwischen den Jahren 2012-2016 mit Jahren ab 2017 muss dies natürlich berücksichtigt werden.
 
 ## Datenbereinigung
 
@@ -97,7 +97,7 @@ Hierbei wird das Kommandozeilenwerkzeug [csvkit](https://csvkit.readthedocs.io) 
 
 ### Entfernung von Einträgen, die keine Namen sind
 
-In den Namenslisten tauchen Zahlreiche Einträge auf, die offenbar keine Namen sind. Hier ist anzunehmen, dass beim Anmeldevorgang Anmerkungen in dafür nicht vorgesehenen Feldern gemacht wurden, und diese am Ende als Namen in den Listen auftauchen (der genaue Grund ist uns aber unbekannt). Beispiele sind:
+In den Namenslisten tauchen zahlreiche Einträge auf, die offenbar keine Namen sind. Hier ist anzunehmen, dass beim Anmeldevorgang Anmerkungen in dafür nicht vorgesehenen Feldern gemacht wurden, und diese am Ende als Namen in den Listen auftauchen (der genaue Grund ist uns aber unbekannt). Beispiele sind:
 
 ```
 bestimmt
