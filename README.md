@@ -143,3 +143,10 @@ Z.Zt. existieren folgende Datensätze:
 - [Liste der häufigen Vornamen 2016](https://daten.berlin.de/datensaetze/liste-der-häufigen-vornamen-2016)
 - [Liste der häufigen Vornamen 2017](https://daten.berlin.de/datensaetze/liste-der-häufigen-vornamen-2017)
 - [Liste der häufigen Vornamen 2018](https://daten.berlin.de/datensaetze/liste-der-häufigen-vornamen-2018)
+
+## Lizenz
+
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/de/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/de/88x31.png" /></a><br/>
+Alle im Repository enthaltenen Datensätze sind lizenziert unter [CC BY 3.0 DE](https://creativecommons.org/licenses/by/3.0/de/) (Creative Commons Namensnennung 3.0 Deutschland Lizenz). Als Urheber ist "Berliner Landesamt für Bürger- und Ordnungsangelegenheiten (LABO) / BerlinOnline Stadtportal GmbH & Co. KG" anzugeben.
+
+Aller im Repository enthaltener Quellcode ist unter der [MIT Lizenz](LICENSE) veröffentlicht,
