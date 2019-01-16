@@ -162,3 +162,10 @@ clean-data: 2012 2013 2014 2015 2016 2017 2018
 	@. bin/convert2017.sh ${TARGET}/2018
 	@echo "... remove non-names"
 	@. bin/remove_non_names.sh ${TARGET}/2018
+
+create-2018:
+	@echo "Create 2018 dataset"
+	@. bin/create_dataset.sh 2018
+	@echo
+	@echo "... done"
+	

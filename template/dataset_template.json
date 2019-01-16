@@ -1,0 +1,239 @@
+{
+  "author": "Landesamt für Bürger- und Ordnungsangelegenheiten",
+  "berlin_source": "webform",
+  "berlin_type": "datensatz",
+  "date_released": "2018-02-19",
+  "date_updated": "2018-02-19",
+  "geographical_coverage": "Berlin",
+  "geographical_granularity": "Bezirk",
+  "groups": [
+    {
+      "name": "demographie"
+    }
+  ],
+  "license_id": "cc-by",
+  "maintainer_email": "opendata@berlin.de",
+  "name": "liste-der-h-ufigen-vornamen-2017",
+  "notes": "Die Liste der am häufigsten vergebenen Vornamen, getrennt nach Geschlecht und aufgeschlüsselt nach den Bezirken. Im Gegensatz zu den Vorjahren ist bei mehreren Vornamen auch die Position mit angegeben. Die Position lässt keine Rückschlüsse auf den Rufnamen zu.\n\nAlle vorhandenen Jahrgänge der Vornamensdaten sind auch gesammelt unter https://github.com/berlinonline/haeufige-vornamen-berlin verfügbar.",
+  "organization": {
+    "name": "berlinonline-stadtportal-gmbh-co-kg"
+  },
+  "owner_org": "berlinonline-stadtportal-gmbh-co-kg",
+  "private": false,
+  "attribution_text": "Berliner Landesamt für Bürger- und Ordnungsangelegenheiten (LABO) / BerlinOnline Stadtportal GmbH & Co. KG",
+  "resources": [
+    {
+      "name": "Vornamen 2017 Charlottenburg-Wilmersdorf (CSV)",
+      "description": "Vornamen 2017 Charlottenburg-Wilmersdorf (CSV)",
+      "format": "CSV",
+      "mimetype": "text/csv",
+      "state": "active",
+      "url": "http://www.berlin.de/daten/liste-der-vornamen-2017/charlottenburg-wilmersdorf.csv"
+    },
+    {
+      "name": "Vornamen 2017 Charlottenburg-Wilmersdorf (PDF)",
+      "description": "Vornamen 2017 Charlottenburg-Wilmersdorf (PDF)",
+      "format": "PDF",
+      "mimetype": "application/pdf",
+      "state": "active",
+      "url": "http://www.berlin.de/daten/liste-der-vornamen-2017/charlottenburg-wilmersdorf.pdf"
+    },
+    {
+      "name": "Vornamen 2017 Friedrichshain-Kreuzberg (CSV)",
+      "description": "Vornamen 2017 Friedrichshain-Kreuzberg (CSV)",
+      "format": "CSV",
+      "mimetype": "text/csv",
+      "state": "active",
+      "url": "http://www.berlin.de/daten/liste-der-vornamen-2017/friedrichshain-kreuzberg.csv"
+    },
+    {
+      "name": "Vornamen 2017 Friedrichshain-Kreuzberg (PDF)",
+      "description": "Vornamen 2017 Friedrichshain-Kreuzberg (PDF)",
+      "format": "PDF",
+      "mimetype": "application/pdf",
+      "state": "active",
+      "url": "http://www.berlin.de/daten/liste-der-vornamen-2017/friedrichshain-kreuzberg.pdf"
+    },
+    {
+      "name": "Vornamen 2017 Lichtenberg (CSV)",
+      "description": "Vornamen 2017 Lichtenberg (CSV)",
+      "format": "CSV",
+      "mimetype": "text/csv",
+      "state": "active",
+      "url": "http://www.berlin.de/daten/liste-der-vornamen-2017/lichtenberg.csv"
+    },
+    {
+      "name": "Vornamen 2017 Lichtenberg (PDF)",
+      "description": "Vornamen 2017 Lichtenberg (PDF)",
+      "format": "PDF",
+      "mimetype": "application/pdf",
+      "state": "active",
+      "url": "http://www.berlin.de/daten/liste-der-vornamen-2017/lichtenberg.pdf"
+    },
+    {
+      "name": "Vornamen 2017 Marzahn-Hellersdorf (CSV)",
+      "description": "Vornamen 2017 Marzahn-Hellersdorf (CSV)",
+      "format": "CSV",
+      "mimetype": "text/csv",
+      "state": "active",
+      "url": "http://www.berlin.de/daten/liste-der-vornamen-2017/marzahn-hellersdorf.csv"
+    },
+    {
+      "name": "Vornamen 2017 Marzahn-Hellersdorf (PDF)",
+      "description": "Vornamen 2017 Marzahn-Hellersdorf (PDF)",
+      "format": "PDF",
+      "mimetype": "application/pdf",
+      "state": "active",
+      "url": "http://www.berlin.de/daten/liste-der-vornamen-2017/marzahn-hellersdorf.pdf"
+    },
+    {
+      "name": "Vornamen 2017 Mitte (CSV)",
+      "description": "Vornamen 2017 Mitte (CSV)",
+      "format": "CSV",
+      "mimetype": "text/csv",
+      "state": "active",
+      "url": "http://www.berlin.de/daten/liste-der-vornamen-2017/mitte.csv"
+    },
+    {
+      "name": "Vornamen 2017 Mitte (PDF)",
+      "description": "Vornamen 2017 Mitte (PDF)",
+      "format": "PDF",
+      "mimetype": "application/pdf",
+      "state": "active",
+      "url": "http://www.berlin.de/daten/liste-der-vornamen-2017/mitte.pdf"
+    },
+    {
+      "name": "Vornamen 2017 Neukölln (CSV)",
+      "description": "Vornamen 2017 Neukölln (CSV)",
+      "format": "CSV",
+      "mimetype": "text/csv",
+      "state": "active",
+      "url": "http://www.berlin.de/daten/liste-der-vornamen-2017/neukoelln.csv"
+    },
+    {
+      "name": "Vornamen 2017 Neukölln (PDF)",
+      "description": "Vornamen 2017 Neukölln (PDF)",
+      "format": "PDF",
+      "mimetype": "application/pdf",
+      "state": "active",
+      "url": "http://www.berlin.de/daten/liste-der-vornamen-2017/neukoelln.pdf"
+    },
+    {
+      "name": "Vornamen 2017 Pankow (CSV)",
+      "description": "Vornamen 2017 Pankow (CSV)",
+      "format": "CSV",
+      "mimetype": "text/csv",
+      "state": "active",
+      "url": "http://www.berlin.de/daten/liste-der-vornamen-2017/pankow.csv"
+    },
+    {
+      "name": "Vornamen 2017 Pankow (PDF)",
+      "description": "Vornamen 2017 Pankow (PDF)",
+      "format": "PDF",
+      "mimetype": "application/pdf",
+      "state": "active",
+      "url": "http://www.berlin.de/daten/liste-der-vornamen-2017/pankow.pdf"
+    },
+    {
+      "name": "Vornamen 2017 Reinickendorf (CSV)",
+      "description": "Vornamen 2017 Reinickendorf (CSV)",
+      "format": "CSV",
+      "mimetype": "text/csv",
+      "state": "active",
+      "url": "http://www.berlin.de/daten/liste-der-vornamen-2017/reinickendorf.csv"
+    },
+    {
+      "name": "Vornamen 2017 Reinickendorf (PDF)",
+      "description": "Vornamen 2017 Reinickendorf (PDF)",
+      "format": "PDF",
+      "mimetype": "application/pdf",
+      "state": "active",
+      "url": "http://www.berlin.de/daten/liste-der-vornamen-2017/reinickendorf.pdf"
+    },
+    {
+      "name": "Vornamen 2017 Spandau (CSV)",
+      "description": "Vornamen 2017 Spandau (CSV)",
+      "format": "CSV",
+      "mimetype": "text/csv",
+      "state": "active",
+      "url": "http://www.berlin.de/daten/liste-der-vornamen-2017/spandau.csv"
+    },
+    {
+      "name": "Vornamen 2017 Spandau (PDF)",
+      "description": "Vornamen 2017 Spandau (PDF)",
+      "format": "PDF",
+      "mimetype": "application/pdf",
+      "state": "active",
+      "url": "http://www.berlin.de/daten/liste-der-vornamen-2017/spandau.pdf"
+    },
+    {
+      "name": "Vornamen 2017 Steglitz-Zehlendorf (CSV)",
+      "description": "Vornamen 2017 Steglitz-Zehlendorf (CSV)",
+      "format": "CSV",
+      "mimetype": "text/csv",
+      "state": "active",
+      "url": "http://www.berlin.de/daten/liste-der-vornamen-2017/steglitz-zehlendorf.csv"
+    },
+    {
+      "name": "Vornamen 2017 Steglitz-Zehlendorf (PDF)",
+      "description": "Vornamen 2017 Steglitz-Zehlendorf (PDF)",
+      "format": "PDF",
+      "mimetype": "application/pdf",
+      "state": "active",
+      "url": "http://www.berlin.de/daten/liste-der-vornamen-2017/steglitz-zehlendorf.pdf"
+    },
+    {
+      "name": "Vornamen 2017 Tempelhof-Schoeneberg (CSV)",
+      "description": "Vornamen 2017 Tempelhof-Schoeneberg (CSV)",
+      "format": "CSV",
+      "mimetype": "text/csv",
+      "state": "active",
+      "url": "http://www.berlin.de/daten/liste-der-vornamen-2017/tempelhof-schoeneberg.csv"
+    },
+    {
+      "name": "Vornamen 2017 Tempelhof-Schoeneberg (PDF)",
+      "description": "Vornamen 2017 Tempelhof-Schoeneberg (PDF)",
+      "format": "PDF",
+      "mimetype": "application/pdf",
+      "state": "active",
+      "url": "http://www.berlin.de/daten/liste-der-vornamen-2017/tempelhof-schoeneberg.pdf"
+    },
+    {
+      "name": "Vornamen 2017 Treptow-Koepenick (CSV)",
+      "description": "Vornamen 2017 Treptow-Koepenick (CSV)",
+      "format": "CSV",
+      "mimetype": "text/csv",
+      "state": "active",
+      "url": "http://www.berlin.de/daten/liste-der-vornamen-2017/treptow-koepenick.csv"
+    },
+    {
+      "name": "Vornamen 2017 Treptow-Koepenick (PDF)",
+      "description": "Vornamen 2017 Treptow-Koepenick (PDF)",
+      "format": "PDF",
+      "mimetype": "application/pdf",
+      "state": "active",
+      "url": "http://www.berlin.de/daten/liste-der-vornamen-2017/treptow-koepenick.pdf"
+    }
+  ] ,
+  "state": "active",
+  "tags": [
+    {
+      "display_name": "namen",
+      "name": "namen"
+    },
+    {
+      "display_name": "vornamen",
+      "name": "vornamen"
+    },
+    {
+      "display_name": "statistik",
+      "name": "statistik"
+    }
+  ],
+  "temporal_coverage_from": "2017-01-01",
+  "temporal_coverage_to": "2017-12-31",
+  "temporal_granularity": "Jahr",
+  "title": "Liste der häufigen Vornamen 2017",
+  "type": "dataset",
+  "url": "https://github.com/berlinonline/haeufige-vornamen-berlin"
+}
