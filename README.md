@@ -146,7 +146,17 @@ Z.Zt. existieren folgende Datensätze:
 
 ## Lizenz
 
-<a rel="license" href="http://creativecommons.org/licenses/by/3.0/de/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/de/88x31.png" /></a><br/>
-Alle im Repository enthaltenen Datensätze sind lizenziert unter [CC BY 3.0 DE](https://creativecommons.org/licenses/by/3.0/de/) (Creative Commons Namensnennung 3.0 Deutschland Lizenz). Als Urheber ist "Berliner Landesamt für Bürger- und Ordnungsangelegenheiten (LABO) / BerlinOnline Stadtportal GmbH & Co. KG" anzugeben.
+### Daten
 
-Aller im Repository enthaltener Quellcode ist unter der [MIT Lizenz](LICENSE) veröffentlicht,
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/de/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/de/88x31.png" /></a><br/>
+Alle im Repository enthaltenen Datensätze sind lizenziert unter [CC BY 3.0 DE](https://creativecommons.org/licenses/by/3.0/de/) (Creative Commons Namensnennung 3.0 Deutschland Lizenz). 
+
+Für die original Daten unter [data/source](data/source) ist als Urheber _"Berliner Landesamt für Bürger- und Ordnungsangelegenheiten (LABO)"_ anzugeben.
+
+Für die bereinigten Daten unter [data/cleaned](data/cleaned) ist als Urheber _"Berliner Landesamt für Bürger- und Ordnungsangelegenheiten (LABO) / BerlinOnline Stadtportal GmbH & Co. KG"_ anzugeben.
+
+In beiden Fällen muss die URL des Repositories in der Quellenangabe angegeben werden: https://github.com/berlinonline/haeufige-vornamen-berlin
+
+### Software / Quellcode
+
+Aller im Repository enthaltener Quellcode ist unter der [MIT Lizenz](LICENSE) veröffentlicht.
