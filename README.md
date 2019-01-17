@@ -87,6 +87,10 @@ Also statt:
     treptow-koepenick.pdf
 ```
 
+### CSV Spaltentrennzeichen
+
+Statt `;` als Spaltentrennzeichen (wie in den Quelldaten) nutzen wir das international gebräuchlichere `,`. Dies macht es einfacher, die Daten mit Tools wie [csvkit](https://csvkit.readthedocs.io) oder auch dem github-CSV-Viewer zu bearbeiten.
+
 ### Vereinheitlichung der Spaltenstruktur
 
 In den ersten Jahren war die Spaltenstruktur der originalen CSV-Dateien `vorname,anzahl,geschlecht`. Ab 2015 änderte sich die Reihenfolge zu `anzahl,vorname,geschlecht`. Um die weitere Verarbeitung der Daten zu erleichtern, wurde die Struktur für die Daten ab 2015 vor der Veröffentlichung wieder in die alte Reihenfolge gebracht.
