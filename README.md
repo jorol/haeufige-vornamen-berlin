@@ -11,21 +11,21 @@ In diesem Repository befinden sich beide Versionen der Daten:
 
 ## Struktur der Daten
 
-Für jedes Jahr existiert ein Ordner, in dem jeweils für jeden Bezirk eine CSV-Datei mit den Namenshäufigkeiten liegt (mit `;` als Trennzeichen). Diese CSV-Dateien enthalten die kompletten Listen aller vergebenen Namen.
+Für jedes Jahr existiert ein Ordner, in dem jeweils für jeden Bezirk eine CSV-Datei mit den Namenshäufigkeiten liegt (mit `,` als Trennzeichen). Diese CSV-Dateien enthalten die kompletten Listen aller vergebenen Namen.
 
 Seit 2015 gibt es zusätzlich noch für jeden Bezirk eine PDF-Datei mit den am häufigsten vergebenen Namen.
 
 Für die Jahre 2012-2016 ist die Spaltenstruktur der CSV-Dateien wie folgt:
 
 ```csv
-vorname;anzahl;geschlecht
-Marie;115;w
-Sophie;109;w
-Charlotte;79;w
-Maria;77;w
-Alexander;62;m
-Emilia;60;w
-Maximilian;59;m
+vorname,anzahl,geschlecht
+Marie,115,w
+Sophie,109,w
+Charlotte,79,w
+Maria,77,w
+Alexander,62,m
+Emilia,60,w
+Maximilian,59,m
 ...
 ```
 
@@ -34,18 +34,18 @@ Maximilian;59;m
 Ab 2017 existiert eine weitere Spalte `position`:
 
 ```csv
-vorname;anzahl;geschlecht;position
-Marie;72;w;2
-Sophie;70;w;2
-Maria;50;w;2
-Alexander;43;m;2
-Noah;43;m;1
-Emilia;42;w;1
-Charlotte;36;w;2
+vorname,anzahl,geschlecht,position
+Marie,72,w,2
+Sophie,70,w,2
+Maria,50,w,2
+Alexander,43,m,2
+Noah,43,m,1
+Emilia,42,w,1
+Charlotte,36,w,2
 ...
-Marie;22;w;1
+Marie,22,w,1
 ...
-Marie;9;w;3
+Marie,9,w,3
 ...
 ```
 
@@ -89,7 +89,7 @@ Also statt:
 
 ### Vereinheitlichung der Spaltenstruktur
 
-In den ersten Jahren war die Spaltenstruktur der originalen CSV-Dateien `vorname;anzahl;geschlecht`. Ab 2015 änderte sich die Reihenfolge zu `anzahl;vorname;geschlecht`. Um die weitere Verarbeitung der Daten zu erleichtern, wurde die Struktur für die Daten ab 2015 vor der Veröffentlichung wieder in die alte Reihenfolge gebracht.
+In den ersten Jahren war die Spaltenstruktur der originalen CSV-Dateien `vorname,anzahl,geschlecht`. Ab 2015 änderte sich die Reihenfolge zu `anzahl,vorname,geschlecht`. Um die weitere Verarbeitung der Daten zu erleichtern, wurde die Struktur für die Daten ab 2015 vor der Veröffentlichung wieder in die alte Reihenfolge gebracht.
 
 Dies geschieht durch die Skripte [convert2015.sh](bin/convert2015.sh) (drei Spalten) und [convert2017.sh](bin/convert2017.sh) (vier Spalten).
 
