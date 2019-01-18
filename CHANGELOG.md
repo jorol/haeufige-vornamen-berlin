@@ -2,6 +2,10 @@
 
 ## Development
 
+## 1.1.1
+
+- Filter out empty names, e.g. `;1;w;2`.
+
 ## 1.1.0
 
 - Switched CSV column separator from `;` to `,`.

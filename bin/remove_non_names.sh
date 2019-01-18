@@ -13,6 +13,6 @@ non_names=("al" "bestimmt" "bin" "da" "de" "dela" "do" "el" "kein" "keinen" "la"
 non_name_list=$(join_by '|' "${non_names[@]}")
 for i in ${CSV_FOLDER}/*.csv;
     # filter out lines that start with one of the non_names
-    do egrep -v "^(${non_name_list})," $i > $i.new ;
+    do egrep -v "^(${non_name_list})*," $i > $i.new ;
     mv $i.new $i
 done
