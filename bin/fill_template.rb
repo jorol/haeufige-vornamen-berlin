@@ -77,7 +77,7 @@ data[:resources].each do |resource|
     resource[:url] = resource[:url].sub(/^.+\d{4}/, "https://github.com/berlinonline/haeufige-vornamen-berlin/raw/master/data/cleaned/#{options[:year]}")
     case resource[:format]
     when "CSV"
-        resource[:description] = "Vollständige Liste aller Vornamen der in #{options[:year]} angemeldeten Kinder im Bezirk. Spaltennamen lauten `vorname`, `anzahl` (Häufigkeit der Kombination `vorname`, `geschlecht`, `position`), `geschlecht` und `position` (keine Rückschlüsse auf Rufnamen des Kindes). Trennzeichen ';'."
+        resource[:description] = "Vollständige Liste aller Vornamen der in #{options[:year]} angemeldeten Kinder im Bezirk. Spaltennamen lauten `vorname`, `anzahl` (Häufigkeit der Kombination `vorname`, `geschlecht`, `position`), `geschlecht` und `position` (keine Rückschlüsse auf Rufnamen des Kindes). Trennzeichen `,`."
     when "PDF"
         resource[:description] = "Liste der häufigsten Vornamen der in #{options[:year]} angemeldeten Kinder im Bezirk."
     end

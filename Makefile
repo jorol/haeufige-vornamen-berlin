@@ -26,6 +26,8 @@ clean-data: 2012 2013 2014 2015 2016 2017 2018
 	@cp ${SOURCE}/2012/steglitz-zehlendorf.csv ${TARGET}/2012/steglitz-zehlendorf.csv
 	@cp ${SOURCE}/2012/tempelhof-schoeneberg.csv ${TARGET}/2012/tempelhof-schoeneberg.csv
 	@cp ${SOURCE}/2012/treptow-koepenick.csv ${TARGET}/2012/treptow-koepenick.csv
+	@echo "... restructure CSV"
+	@. bin/convert_pre_2015.sh ${TARGET}/2012
 	@echo "... remove non-names"
 	@. bin/remove_non_names.sh ${TARGET}/2012
 
@@ -47,6 +49,8 @@ clean-data: 2012 2013 2014 2015 2016 2017 2018
 	@cp ${SOURCE}/2013/steglitz-zehlendorf.csv ${TARGET}/2013/steglitz-zehlendorf.csv
 	@cp ${SOURCE}/2013/tempelhof-schoeneberg.csv ${TARGET}/2013/tempelhof-schoeneberg.csv
 	@cp ${SOURCE}/2013/treptow-koepenick.csv ${TARGET}/2013/treptow-koepenick.csv
+	@echo "... restructure CSV"
+	@. bin/convert_pre_2015.sh ${TARGET}/2013
 	@echo "... remove non-names"
 	@. bin/remove_non_names.sh ${TARGET}/2013
 
@@ -68,6 +72,8 @@ clean-data: 2012 2013 2014 2015 2016 2017 2018
 	@cp ${SOURCE}/2014/steglitz-zehlendorf.csv ${TARGET}/2014/steglitz-zehlendorf.csv
 	@cp ${SOURCE}/2014/tempelhof-schoeneberg.csv ${TARGET}/2014/tempelhof-schoeneberg.csv
 	@cp ${SOURCE}/2014/treptow-koepenick.csv ${TARGET}/2014/treptow-koepenick.csv
+	@echo "... restructure CSV"
+	@. bin/convert_pre_2015.sh ${TARGET}/2014
 	@echo "... remove non-names"
 	@. bin/remove_non_names.sh ${TARGET}/2014
 
