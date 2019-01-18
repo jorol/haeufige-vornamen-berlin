@@ -2,6 +2,10 @@
 
 ## Development
 
+## 1.1.2
+
+- Adjust README.
+
 ## 1.1.1
 
 - Filter out empty names, e.g. `;1;w;2`.

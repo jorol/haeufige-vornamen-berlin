@@ -132,7 +132,13 @@ Auch diese Einträge werden aus den Listen entfernt.
 
 Die genaue Liste kann in dem Skript [remove_non_names.sh](bin/remove_non_names.sh) nachgesehen werden. Diese Liste wurde von uns nach bestem Wissen und Gewissen erstellt - wenn sie Fehler enthält (Namen fälschlicherweise entfernt, andere "Namen" noch nicht entfernt), freuen wir uns über [Feedback](https://github.com/berlinonline/haeufige-vornamen-berlin/issues)!
 
+### Entfernung von leeren Namen
 
+Auch leere Strings sind nicht als Namen zugelassen und werden entfernt, z.B.
+
+```
+;1;w;2
+```
 
 ## Veröffentlichung im Datenportal
 
